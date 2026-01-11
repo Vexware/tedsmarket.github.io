@@ -1,3 +1,4 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +11,6 @@ body {
   color: white;
 }
 
-/* Navbar */
 /* NAVBAR */
 .navbar {
   position: fixed;
@@ -41,56 +41,4 @@ body {
   color: white;
   text-decoration: none;
   font-size: 15px;
-  opacity: 0.85;
-  transition: opacity 0.2s ease;
-}
-
-.navbar nav a:hover {
-  opacity: 1;
-}
-
-}
-.hero {
-  padding-top: 120px;
-}
-
-}
-
-.btn {
-  margin-top: 25px;
-  padding: 12px 25px;
-  background: #3b82f6;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-}
-.store {
-  padding: 120px 40px;
-  text-align: center;
-  background: #050814;
-}
-
-.store h2 {
-  font-size: 42px;
-  margin-bottom: 60px;
-}
-
-.products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 40px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-}
-
-.buy {
-  display: inline-block;
-  padding: 12px 20px;
-  background: #22c55e;
-  color: black;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-}
+  opacity: 0.8
