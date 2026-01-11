@@ -57,36 +57,24 @@ body {
   border-radius: 6px;
 }
 .store {
-  padding: 80px 40px;
+  padding: 120px 40px;
   text-align: center;
+  background: #050814;
 }
 
 .store h2 {
-  font-size: 36px;
-  margin-bottom: 40px;
+  font-size: 42px;
+  margin-bottom: 60px;
 }
 
 .products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  max-width: 1100px;
-  margin: auto;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.product {
-  background: #070a14;
-  padding: 30px;
-  border-radius: 12px;
-}
-
-.product h3 {
-  font-size: 20px;
-}
-
-.product p {
-  opacity: 0.8;
-  margin: 10px 0 20px;
 }
 
 .buy {
